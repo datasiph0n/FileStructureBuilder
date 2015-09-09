@@ -1,7 +1,7 @@
 <?php
 ini_set('max_execution_time', 3000);
 
-$directories = array('Scans', 'General', 'ACCOUNTS', 'ACT'); // server shares
+$directories = array('Share1', 'Share2', 'Share3', 'Share4'); // server shares
 
 class search {
 	public $important_files = array('.png', '.jpg', '.pdf', '.gif', '.doc'); // files we want to scan for
